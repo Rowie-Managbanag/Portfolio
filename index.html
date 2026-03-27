@@ -4,186 +4,151 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rowie Adrian V. Managbanag | Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;800&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-    <nav class="navbar">
-        <div class="nav-brand">RVM.</div>
-        <ul class="nav-links">
-            <li><a href="#about">About</a></li>
-            <li><a href="#education">Education</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#affiliations">Affiliations</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
+    <nav class="side-nav">
+        <a href="#" class="nav-logo">R<span>.</span></a>
+        <div class="nav-menu">
+            <a href="#about">About</a>
+            <a href="#projects">Work</a>
+            <a href="#education">Journey</a>
+            <a href="#contact">Contact</a>
+        </div>
     </nav>
 
-    <header id="hero" class="section hero-section">
-        <div class="hero-content">
-            <span class="badge">Available for opportunities</span>
-            <h1>Rowie Adrian V. Managbanag</h1>
-            <h2 class="role">Front-End Developer</h2>
-            <p>Passionate information technology student building meaningful digital experiences. I love crafting clean code, exploring emerging technologies, and turning complex problems into elegant solutions.</p>
-            <div class="hero-actions">
-                <a href="#projects" class="btn btn-primary">View Projects</a>
-                <a href="#contact" class="btn btn-secondary">Contact Me</a>
+    <main>
+        <section id="hero" class="hero">
+            <div class="hero-inner">
+                <div class="hero-text">
+                    <span class="status-pill">Available for new opportunities</span>
+                    <h1>Rowie Adrian <span>Front-End Developer.</span></h1>
+                    <p>Information technology student building meaningful digital experiences. I turn complex problems into elegant, functional web solutions.</p>
+                    <div class="cta-group">
+                        <a href="#projects" class="main-link">View Work</a>
+                        <a href="#contact" class="sub-link">Get in touch</a>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="image-wrapper">
+                        <img src="profile.jpg" alt="Rowie Adrian V. Managbanag">
+                    </div>
+                </div>
             </div>
-        </div>
-        <div class="hero-image">
-            <img src="profile.jpg" alt="Rowie Adrian V. Managbanag">
-        </div>
-    </header>
+        </section>
 
-    <section id="about" class="section bg-light">
-        <div class="container about-grid">
-            <div class="about-text">
-                <h2>Building things that are essential</h2>
-                <p>I'm <strong>Rowie Adrian V. Managbanag</strong>, an Information Technology student at Ateneo de Davao University with a deep passion for software development.</p>
-                <p>I thrive in collaborative environments, and am always learning something new — whether it's a new framework, a design pattern, or a completely different field of tech.</p>
+        <section id="about">
+            <div class="section-label">Capabilities</div>
+            <div class="expertise-grid">
+                <div class="expertise-item">
+                    <h3>Frontend Development</h3>
+                    <p>Crafting responsive and interactive user interfaces focusing on clean code, accessibility, and modern design principles to ensure a seamless user experience.</p>
+                    <div class="skill-tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+                </div>
+                <div class="expertise-item">
+                    <h3>Database & Architecture</h3>
+                    <p>Designing efficient relational schemas and writing complex queries to ensure data integrity and optimize application performance from the ground up.</p>
+                    <div class="skill-tags">
+                        <span>SQL</span>
+                        <span>Database Design</span>
+                        <span>Python</span>
+                    </div>
+                </div>
+                <div class="expertise-item">
+                    <h3>Tools & Environment</h3>
+                    <p>Utilizing modern development tools to streamline workflows, manage version control, and collaborate effectively in team-based environments.</p>
+                    <div class="skill-tags">
+                        <span>Git</span>
+                        <span>VS Code</span>
+                        <span>Cursor</span> 
+                        <span>Figma</span>
+                    </div>
+                </div>
             </div>
-            <div class="about-stats">
-                <div class="stat-box">
-                    <h3>5+</h3>
-                    <span>Projects Completed</span>
-                </div>
-                <div class="stat-box">
-                    <h3>4+</h3>
-                    <span>Technologies Used</span>
-                </div>
-                <div class="stat-box">
-                    <h3>2+</h3>
-                    <span>Years Coding</span>
-                </div>
-            </div>
-        </div>
-    </section>
+        </section>
 
-    <section id="education" class="section">
-        <div class="container">
-            <h2>Academic Journey</h2>
+        <section id="projects">
+            <div class="section-label">Previous Work</div>
+            <div class="projects-list">
+                <div class="project-item">
+                    <div class="project-num">01</div>
+                    <div class="project-info">
+                        <h3>Relational Database Architecture</h3>
+                        <p>Documenting a series of SQL implementations focusing on complex joins, schema optimization, and data normalization strategies.</p>
+                    </div>
+                    <div class="project-meta">
+                        <span>SQL</span>
+                        <span>Database Design</span>
+                    </div>
+                </div>
+                <div class="project-item">
+                    <div class="project-num">02</div>
+                    <div class="project-info">
+                        <h3>Modern Web Interfaces</h3>
+                        <p>A collection of responsive UI components and landing page layouts focused on mobile-first CSS and modern design system principles.</p>
+                    </div>
+                    <div class="project-meta">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="education">
+            <div class="section-label">Experience & Education</div>
             <div class="timeline">
                 <div class="timeline-item">
-                    <span class="timeline-date">2023 — Present</span>
-                    <h3>Ateneo de Davao University</h3>
-                    <p>Bachelor of Science in Information Technology</p>
-                    <span class="tag">Current — 2nd Year</span>
+                    <span class="timeline-date">2025 — Present</span>
+                    <h3>AdDU SAMAHAN Productions & Academic Affairs</h3>
+                    <p>Production Member (Technical). Managing technical aspects for university organizations.</p>
+                    <span class="tag">Active</span>
                 </div>
                 <div class="timeline-item">
-                    <span class="timeline-date">2021 — 2023</span>
+                    <span class="timeline-date">2024 — Present</span>
+                    <h3>Ateneo de Davao University</h3>
+                    <p>Bachelor of Science in Information Technology.</p>
+                    <span class="tag">2nd Year Student</span>
+                </div>
+                <div class="timeline-item">
+                    <span class="timeline-date">2022 — 2024</span>
                     <h3>Immaculate Heart of Mary Academy</h3>
-                    <p>SHS - Science, Technology, Engineering, and Mathematics (STEM)</p>
+                    <p>Senior High School - STEM Strand.</p>
                     <span class="tag">With Honors</span>
                 </div>
                 <div class="timeline-item">
-                    <span class="timeline-date">2017 — 2021</span>
+                    <span class="timeline-date">2018 — 2022</span>
                     <h3>Immaculate Heart of Mary Academy</h3>
                     <p>Junior High School</p>
-                    <span class="tag">Completed</span>
+                    <span class="tag">With Honors</span>
                 </div>
+                
             </div>
-        </div>
-    </section>
+        </section>
 
-    <section id="projects" class="section bg-light">
-        <div class="container">
-            <h2>What I've Built</h2>
-            <div class="projects-grid">
-                <div class="project-card">
-                    <div class="project-tags">
-                        <span>HTML</span><span>CSS</span><span>JS</span>
-                    </div>
-                    <h3>Project Name Here</h3>
-                    <p>Short description of what the project does and who it was for.</p>
-                </div>
-                <div class="project-card">
-                    <div class="project-tags">
-                        <span>React</span><span>Tailwind</span>
-                    </div>
-                    <h3>Another Project</h3>
-                    <p>Short description of what the project does and who it was for.</p>
-                </div>
+        <footer id="contact">
+            <div class="contact-content">
+                <div class="section-label">Next Steps</div>
+                <h2>Let's build something essential.</h2>
+                <p>Open to collaborative projects, technical discussions, or just a friendly chat about tech. Reach out anytime.</p>
+                <a href="mailto:rowie2414@gmail.com" class="email-hero">rowie2414@gmail.com</a>
             </div>
-        </div>
-    </section>
-
-    <section id="skills" class="section">
-        <div class="container">
-            <h2>Tools & Technologies</h2>
             
-            <div class="skills-layout">
-                <div class="skills-categories">
-                    <div class="skill-category">
-                        <h3>Frontend Development</h3>
-                        <p>HTML5, CSS3, JavaScript, React, Tailwind CSS</p>
-                    </div>
-                    <div class="skill-category">
-                        <h3>Tools & DevOps</h3>
-                        <p>Git, GitHub, VS Code, Cursor, Docker, Figma</p>
-                    </div>
-                </div>
-
-                <div class="skills-proficiency">
-                    <h3>Proficiency</h3>
-                    <div class="progress-bar">
-                        <span class="skill-name">HTML & CSS (90%)</span>
-                        <div class="progress"><div class="progress-fill" style="width: 90%;"></div></div>
-                    </div>
-                    <div class="progress-bar">
-                        <span class="skill-name">JavaScript (48%)</span>
-                        <div class="progress"><div class="progress-fill" style="width: 48%;"></div></div>
-                    </div>
-                    <div class="progress-bar">
-                        <span class="skill-name">SQL / Databases (45%)</span>
-                        <div class="progress"><div class="progress-fill" style="width: 45%;"></div></div>
-                    </div>
-                    <div class="progress-bar">
-                        <span class="skill-name">Python (35%)</span>
-                        <div class="progress"><div class="progress-fill" style="width: 35%;"></div></div>
-                    </div>
-                    <div class="progress-bar">
-                        <span class="skill-name">Java (20%)</span>
-                        <div class="progress"><div class="progress-fill" style="width: 20%;"></div></div>
-                    </div>
+            <div class="footer-bottom">
+                <p>© 2026 Rowie Adrian Managbanag.</p>
+                <div class="social-links">
+                    <a href="https://github.com/Rowie-Managbanag" target="_blank" rel="noopener noreferrer">Github</a>
+                    <a href="https://www.linkedin.com/in/rowie-managbanag-42881127b/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
                 </div>
             </div>
-        </div>
-    </section>
-
-    <section id="affiliations" class="section bg-light">
-        <div class="container">
-            <h2>Communities I'm part of</h2>
-            <div class="projects-grid">
-                <div class="project-card">
-                    <span class="timeline-date">2025 — Present</span>
-                    <h3>AdDU SAMAHAN Productions</h3>
-                    <p><strong>Role:</strong> Production Member (Technical)</p>
-                </div>
-                <div class="project-card">
-                    <span class="timeline-date">2025 — Present</span>
-                    <h3>Ateneo SAMAHAN Department of Academic Affairs</h3>
-                    <p><strong>Role:</strong> Production Member (Technical)</p>
-                </div>
-                <div class="project-card">
-                    <span class="timeline-date">2024 — Present</span>
-                    <h3>AdDU Bahaghari</h3>
-                    <p><strong>Role:</strong> Member</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <footer id="contact" class="section contact-section">
-        <div class="container">
-            <h2>Let's work together.</h2>
-            <p>Open to collaborative projects, or just a friendly chat about tech. Reach out anytime!</p>
-            <a href="mailto:rowie2414@gmail.com" class="btn btn-primary email-btn">✉ rowie2414@gmail.com</a>
-            
-            <p class="copyright">© 2026 Rowie Adrian Managbanag. All rights reserved.</p>
-        </div>
-    </footer>
+        </footer>
+    </main>
 
 </body>
 </html>
